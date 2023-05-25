@@ -28,7 +28,8 @@
         "prefer": "type-imports"
       }
     ],
-    "@typescript-eslint/explicit-function-return-type": "error",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-misused-promises": "off",
     "comma-dangle": ["error", "only-multiline"],
     "prettier/prettier": [
       "error",
